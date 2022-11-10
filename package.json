@@ -5,7 +5,7 @@
   "source": "main/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects "
   },
   "author": "",
   "license": "ISC",
