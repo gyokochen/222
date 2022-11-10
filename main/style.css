@@ -1,0 +1,19 @@
+
+
+
+footer {
+    /* figma  */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #BDBDBD;
+    
+    margin-top: 34px;
+}
+  
+.creater {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}

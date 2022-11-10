@@ -1,0 +1,254 @@
+* {
+    /* reset styles */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#buttons {
+    margin-left: 22.22vw;
+    margin-right: 22.22vw;
+    margin-top: 3vw;
+    margin-bottom: 24px;
+}
+
+#buttons header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #4F4F4F;
+
+    margin-bottom: 1.944vw;
+}
+
+.buttons {
+    display: flex;
+    row-gap: 45px;
+    flex-wrap: wrap;
+}
+
+.buttons > div {
+    width: 100%;
+}
+
+.buttons h5 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #333333;
+
+    margin-bottom: 12px;
+}
+
+.buttons button {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    padding: 8px 16px; /*middle size*/
+}
+
+#basicButtons {
+    display: flex;
+    row-gap: 45px;
+    flex-wrap: wrap;
+}
+
+#basicButtons > div {
+    width: 100%
+}
+
+.defaultButton {
+    border: none;
+
+    background: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+
+    color: #3F3F3F;
+}
+
+#basicButtons .defaultButton:hover, #basicButtons .defadefaultButton:focus  {
+    background: #AEAEAE;
+}
+
+.outlineButton {
+    background: white;
+    border: 1px solid #3D5AFE;
+    border-radius: 6px;
+
+    color: #3D5AFE;
+}
+
+#basicButtons .outlineButton:hover, #basicButtons .outlineButton:focus {
+    background: rgba(41, 98, 255, 0.1);
+}
+
+.textButton {
+    border: none;
+
+    background: white;
+
+    color: #3D5AFE;
+}
+
+#basicButtons .textButton:hover, #basicButtons .textButton:focus {
+    background: rgba(41, 98, 255, 0.1);
+    border-radius: 6px;
+}
+
+#disabledButton {
+    display: flex;
+    column-gap: 125px;
+}
+
+.disableShadowButton {
+    border: none;
+
+    background: #3D5AFE;
+    border-radius: 6px;
+
+    color: #FFFFFF;
+}
+
+.disabledButton {
+    color: #9E9E9E;
+}
+
+#iconButtons {
+    display: flex;
+    column-gap: 80px;
+    justify-content: start;
+}
+
+#buttons .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 200,
+  'opsz' 20;
+}
+
+#iconButtons button {
+    border: none;
+
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    border-radius: 6px;
+
+    color: #FFFFFF;
+
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#iconButtons span {
+    font-size: 14px;
+}
+
+#sizeButtons {
+    display: flex;
+    column-gap: 84px;
+}
+
+#sizeButtons button {
+    border: none;
+
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    border-radius: 6px;
+
+    color: #FFFFFF;
+}
+
+.smButton {
+    padding: 6px 12px;
+}
+
+.mdButton {
+    padding: 8px 16px;
+}
+
+.lgButton {
+    padding: 11px 12px;
+}
+
+#colorButtons {
+    display: flex;
+    column-gap: 45px;
+}
+
+#colorButtons .defaultButton:hover, #colorButtons .defaultButton:focus {
+    background: #AEAEAE;
+}
+
+.primaryButton {
+    border: none;
+
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    border-radius: 6px;
+
+    color: #FFFFFF;
+}
+
+.primaryButton:hover, .primaryButton:focus {
+    background: #0039CB;
+}
+
+.secondaryButton {
+    border: none;
+
+    background: #455A64;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    border-radius: 6px;
+
+    color: #FFFFFF;
+}
+
+.secondaryButton:hover, .secondaryButton:focus {
+    background: #1C313A;
+}
+
+.dangerButton {
+    border: none;
+
+    background: #D32F2F;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+    border-radius: 6px;
+
+    color: #FFFFFF;
+}
+
+.dangerButton:hover, .dangerButton:focus {
+    background: #9A0007;
+}
+
+#buttons #icon-source {
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #828282;
+
+    margin-top: 3.611vw;
+}
+
+#buttons #icon-source a {
+    color: inherit;
+    text-decoration: none;
+}

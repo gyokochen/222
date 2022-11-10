@@ -1,0 +1,211 @@
+* {
+    /* reset styles */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#inputs {
+    margin-left: 22.22vw;
+    margin-right: 22.22vw;
+    margin-top: 3vw;
+    margin-bottom: 24px;
+}
+
+#inputs header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #4F4F4F;
+
+    margin-bottom: 1.944vw;
+}
+
+.inputs, #basicInputs {
+    display: flex;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.inputs > div, #basicInputs > div {
+    width: 100%;
+}
+
+.inputs h5 {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+
+    color: #333333;
+
+    margin-bottom: 16px;
+}
+
+.inputs label {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+
+    color: #333333;
+}
+
+.inputs input {
+    width: 200px;
+    height: 56px;
+
+    border: 1px solid #828282;
+    border-radius: 8px;
+
+    padding-left: 12px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #828282;
+
+    margin-top: 4px;
+}
+
+.inputs input:focus {
+    outline: none; /* chrome has border hightlight */
+}
+
+.dafultInput:hover {
+    border-color: #333333;
+}
+
+.dafultInput:focus {
+    border-color: #2962FF;
+}
+
+label:focus-within {
+    color: #2962FF;
+}
+
+.errorInputs label {
+    color: #D32F2F;
+}
+
+.errorInputs input {
+    border-color: #D32F2F;
+}
+
+.errorInput:hover {
+    border-color: #333333;
+}
+
+
+.errorInput:focus {
+    border-color: #D32F2F;
+}
+
+.disabledInput {
+    background: #F2F2F2;
+
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+#helpTextInput, #iconInput, #sizeInput {
+    display: flex;
+    gap: 30px;
+}
+
+#helpTextInput > div, #iconInput > div, #sizeInput > div {
+    width: 300px;
+}
+
+#helpTextInput input {
+    margin-bottom: 4px;
+}
+
+#helpTextInput span {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.dafultInput ~ span {
+    color: #828282;
+}
+
+.errorInputs span {
+    color: #D32F2F;
+}
+
+
+#iconInput span {
+    position: absolute;
+    font-size: 18px;
+
+    margin-top: 4px; /* follow input field margin-top */
+    color: #828282;
+}
+
+.inputs .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+
+.startIconInput span {
+    padding: 19px 13px;
+}
+
+.startIconInput input {
+    padding-left: 46px;
+}
+
+.endIconInput span {
+    margin-left: -29px;
+
+    font-size: 21px;
+
+    padding-top: 17px;
+    padding-bottom: 18px;
+}
+
+#textInput input {
+    color: #333333;
+}
+
+.smInput {
+    height: 40px;
+}
+
+
+#fullWidthInput input {
+    color: #333333;
+    width: 100%;
+}
+
+#miltiLine textarea {
+    width: 200px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+
+    padding: 18px 12px;
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #828282;
+}
